@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Terminate already running xob instances
+killall -q xob
+
+# Now launch xob again
+volume.py | xob -s vol
