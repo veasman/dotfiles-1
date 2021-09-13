@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Terminate already running bar instances
+killall -q tint2
+
+# Launch Polybar, using default config location ~/.config/polybar/config
+tint2 & 
