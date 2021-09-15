@@ -4,4 +4,4 @@
 killall -q tint2
 
 # Launch Polybar, using default config location ~/.config/polybar/config
-tint2 & 
+tint2

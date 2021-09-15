@@ -1,22 +1,41 @@
 #! /bin/sh
+
+##########################
+# autostart applications #
+##########################
+
+# hotkey daemon
 sxhkd &
+# bg, compositor and cursor fix
 feh --bg-fill "$HOME/pics/leaves.jpg" &
 picom -b &
 xsetroot -cursor_name left_ptr &
+# volume indicator and panel 
 xob-start &
 tint2-start &
+# needed for authentication
 /usr/libexec/xfce-polkit &
+# disk notification
+udiskie &
 
+#######################
+# bspwm configuration #
+#######################
+
+# here you set desktop names
 bspc monitor -d 1 2 3 4 5 6 7 8
 
+# borders and gaps
 bspc config border_width         0
 bspc config window_gap           7
 
+# useful things
 bspc config split_ratio          0.50
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 bspc config focus_follows_pointer true
 
+# application rules
 bspc rule -a Gimp desktop='^8' follow=on
 bspc rule -a Firefox desktop='^2' follow=on
 bspc rule -a mpv state=floating

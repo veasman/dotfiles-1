@@ -1,8 +1,14 @@
+####################
+# alacritty config #
+####################
+
+# padding
 window:
   padding:
     x: 30
     y: 30
 
+# fonts
 font:
   normal:
     family: JetBrains Mono
@@ -22,6 +28,7 @@ font:
 
   size: 9.5
 
+# jellybeans colors
 colors:
   primary:
     background: '#151515'
@@ -49,5 +56,6 @@ colors:
 
 live_config_reload: true
 
+# hide cursor while typing  
 mouse:
   hide_when_typing: true

@@ -27,7 +27,7 @@ case $chosen in
 			loginctl reboot
         ;;
     $lock)
-			slock
+			lockscreen
         ;;
     $suspend)
 			pamixer -m

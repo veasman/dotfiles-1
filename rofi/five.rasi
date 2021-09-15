@@ -55,14 +55,14 @@ element-text {
 
 element normal.urgent,
 element alternate.urgent {
-    background-color:               #202020;
+    background-color:               #1c1c1c;
     text-color:                     #151515;
     border-radius:                  7px;
 }
 
 element normal.active,
 element alternate.active {
-    background-color:               #202020;
+    background-color:               #1c1c1c;
     text-color:                     #151515;
 }
 
@@ -80,6 +80,6 @@ element selected.urgent {
 }
 
 element selected.active {
-    background-color:               #202020;
+    background-color:               #1c1c1c;
     color:                          #151515;
 }
