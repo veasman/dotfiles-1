@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# terminate already running xob instances
+# Terminate already running xob instances
 killall -q xob
 
-# now launch xob again
+# Now launch xob again
 volume | xob -s vol

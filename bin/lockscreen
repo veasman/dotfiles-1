@@ -3,10 +3,10 @@
 # pamixer -m
 i3lock --nofork                 	\
     --ignore-empty-password		\
-    \
+    					\
     --indicator				\
     --bar-indicator			\
-    --bar-pos="1070"		\
+    --bar-pos="1070"			\
     --bar-base-width="10"		\
     --bar-orientation=horizontal	\
     --bar-color=161616			\
@@ -14,28 +14,28 @@ i3lock --nofork                 	\
     --ringwrongcolor=bf616a		\
     --bshlcolor=5e81ac			\
     --keyhlcolor=a3be8c			\
-    \
+    					\
     --clock				\
     --timecolor=eceff4ff		\
-    --timestr="%I:%M"		\
+    --timestr="%H:%M"			\
     --time-font="Rubik Light"		\
     --timesize=72			\
-    --timepos="683:384"		\
-    --timecolor=ffffffff		\
-    \
+    --timepos="683:384"			\
+    --timecolor=e8e8d3ff		\
+    					\
     --datecolor=d8dee9ff		\
     --datestr="%A, %d %B"		\
-    --datecolor=ffffffff		\
+    --datecolor=e8e8d3ff		\
     --date-font="Rubik Light"		\
     --datesize=18			\
-    --datepos="683:424"	\
-    \
+    --datepos="683:424"			\
+    					\
     --verif-font="Rubik Light"		\
     --verifsize=24			\
     --veriftext="Welcome home!"		\
-    --verifcolor=ffffff \
+    --verifcolor=ffffff 		\
     --wrong-font="Rubik Light"		\
-    --wrongsize=24		\
+    --wrongsize=24			\
     --wrongtext="Try again"		\
-    --wrongcolor=ffffff\
-    --blur=5
+    --wrongcolor=ffffff			\
+    --blur=7

@@ -1,4 +1,7 @@
-# dotfiles
-my configuration files
+<h1 align="center">Dotfiles</h1>
 
-let me know if there's something wrong.
+my configuration files.
+
+### few screenshots
+
+<img src="" alt="desktop with a couple of terminals open"> <br>

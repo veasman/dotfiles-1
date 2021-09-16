@@ -15,8 +15,10 @@ xob-start &
 tint2-start &
 # needed for authentication
 /usr/libexec/xfce-polkit &
-# disk notification
+# check for drives and devices connected
 udiskie &
+# basic lock program
+lock &
 
 #######################
 # bspwm configuration #
